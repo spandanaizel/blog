@@ -1,0 +1,13 @@
+# Root-level environment file used by docker-compose
+.env
+.env.*
+!.env.example
+
+.DS_Store
+*.log
+
+# Each app keeps its own node_modules/dist/coverage ignores in its own .gitignore;
+# these root patterns just catch anything created from the repo root.
+node_modules/
+dist/
+coverage/
